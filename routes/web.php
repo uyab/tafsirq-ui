@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'home');
+Route::view('page/{page}', 'page');
+Route::view('topik/{topik}', 'topik');
+Route::view('tilawah', 'tilawah');
+Route::view('medina', 'medina');
+Route::view('index/surat', 'surat');
+Route::view('index/juz', 'juz');
+Route::view('index/tema', 'tema');
+Route::view('{nomorSurat}-{surat}', 'surat');
+Route::view('{nomorSurat}-{surat}/ayat-{nomorAyat}', 'ayat');
+Route::view('tag/{tag}', 'tag');
