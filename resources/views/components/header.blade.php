@@ -1,15 +1,15 @@
 <nav class="bg-gray-200 p-4">
-    <div class="max-w-2xl m-auto">
-        <ol class="flex overflow-x-auto whitespace-no-wrap mb-4 lg:justify-center">
-            <li class="px-4 w-auto text-center"><i class="far fa-home"></i></li>
-            <li class="px-4 w-auto text-center">Quran</li>
-            <li class="px-4 w-auto text-center">Hadits</li>
-            <li class="px-4 w-auto text-center">Doa</li>
-            <li class="px-4 w-auto text-center">Cerita</li>
-            <li class="px-4 w-auto text-center">Mushaf</li>
-            <li class="px-4 w-auto text-center">Fatwa</li>
-            <li class="px-4 w-auto text-center">Kerja Sama</li>
-            <li class="px-4 w-auto text-center">Donasi</li>
+    <div class="max-w-3xl m-auto">
+        <ol class="flex flex-wrap mb-4 justify-center">
+            <li class="px-4"><i class="far fa-home"></i></li>
+            <li class="px-4">Quran</li>
+            <li class="px-4">Hadits</li>
+            <li class="px-4">Doa</li>
+            <li class="px-4">Cerita</li>
+            <li class="px-4">Mushaf</li>
+            <li class="px-4">Fatwa</li>
+            <li class="px-4">Kerja Sama</li>
+            <li class="px-4">Donasi</li>
         </ol>
 
         <div class="flex">
