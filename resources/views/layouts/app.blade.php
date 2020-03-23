@@ -15,7 +15,7 @@
 
     <x-header></x-header>
 
-    <div class="flex-grow">
+    <div class="flex-grow max-w-6xl m-auto">
         @yield('content')
     </div>
 
