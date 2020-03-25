@@ -42,14 +42,14 @@
                 </div>
             </div>
 
-            <div class="px-12 py-8">
+            <div class="px-6 py-4 sm:px-12 sm:py-8">
                 <div class="arabic">وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا ۚ إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ</div>
             </div>
 
-            <div class="px-12 py-8">
+            <div class="px-6 py-4 sm:px-12 sm:py-8">
                 <div class="mb-8">
                     <h4 class="font-bold mb-2">Terjemahan hadis Abu Daud nomor 19:</h4>
-                    <p class="text-lg">Dan perangilah di jalan Allah orang-orang yang memerangi kamu, (tetapi) janganlah kamu melampaui batas, karena sesungguhnya Allah tidak menyukai orang-orang yang melampaui batas.</p>
+                    <p class="text-base">Dan perangilah di jalan Allah orang-orang yang memerangi kamu, (tetapi) janganlah kamu melampaui batas, karena sesungguhnya Allah tidak menyukai orang-orang yang melampaui batas.</p>
                 </div>
             </div>
 
