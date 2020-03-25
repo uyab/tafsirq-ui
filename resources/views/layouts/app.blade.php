@@ -8,6 +8,16 @@
     <title>Document</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
+    <style>
+        .arabic {
+            direction: rtl;
+            font-family: "Amiri","Scheherazade", "Traditional Arabic";
+            font-size: 1.7em;
+            letter-spacing: 1px;
+            line-height: 2em;
+        }
+    </style>
+
     <script src="https://kit.fontawesome.com/a42e77f6db.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,7 +25,7 @@
 
     <x-header></x-header>
 
-    <div class="flex-grow max-w-6xl m-auto">
+    <div class="flex-grow max-w-6xl m-auto mb-16">
         @yield('content')
     </div>
 
