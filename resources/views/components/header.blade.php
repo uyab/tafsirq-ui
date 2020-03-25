@@ -1,6 +1,6 @@
 <nav class="bg-gray-200 p-4">
     <div class="max-w-4xl m-auto">
-        <ol class="flex flex-wrap mb-4 justify-center">
+        <ol class="flex flex-wrap mb-4 justify-center text-gray-700">
             <li class="px-4"><i class="far fa-home"></i></li>
             <li class="px-4">Quran</li>
             <li class="px-4">Hadits</li>
@@ -13,7 +13,7 @@
         </ol>
 
         <div class="flex">
-            <div class="h-10 bg-gray-900 cursor-pointer flex-grow rounded-full">
+            <div class="h-10 bg-gray-600 cursor-pointer flex-grow rounded-full">
                 <div class="flex">
                     <input type="search" name="search" placeholder="Cari Topik..."
                            class="flex-grow px-4 focus:outline-none rounded-l-full">

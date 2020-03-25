@@ -6,11 +6,11 @@
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/4">
                 <div class="pb-4 pt-12 px-4">
-                    <h2 class="tracking-widest uppercase font-bold mb-4">#Trending</h2>
+                    <h2 class="tracking-widest uppercase font-bold mb-4 text-gray-700">#Trending</h2>
                     <ol class="text-sm flex flex-wrap">
                         @foreach(range(1,10) as $i)
                             <li class="pb-4 pr-4 md:w-full">
-                                <span class="text-gray-400 p-1 text-xs">{{ $i }}</span>
+                                <span class="text-gray-400 text-xs">{{ $i }}</span>
                                 <span class="text-gray-500 font-bold">Topik {{ $i % 3 == 0 ? 'lorem ipsum' : '' }}</span>
                             </li>
                         @endforeach
@@ -20,21 +20,21 @@
             <div class="w-full md:w-3/4">
 
                 <div class="pb-4 pt-12 px-4">
-                    <h2 class="text-3xl font-thin">Apa kata Al-Qur'an tentang <strong>Ikhlas</strong>?</h2>
+                    <h2 class="text-3xl font-thin text-gray-800">Apa kata Al-Qur'an tentang <strong>Ikhlas</strong>?</h2>
                 </div>
 
                 <div class="p-4">
                     @foreach(range(1, 10) as $item)
                         <div class="shadow-lg rounded">
-                            <div class="bg-gray-200 text-gray-800 px-4 py-2 rounded-t flex">
-                                <div class="flex-grow">
+                            <div class="bg-gray-200 text-gray-600 px-4 py-2 rounded-t flex">
+                                <div class="flex-grow font-bold">
                                     Surat Al-Baqarah Ayat 47
                                 </div>
                                 <div>
-                                    <span class="rounded-full bg-gray-400 text-gray-800 text-xs px-2">tafsir</span>
+                                    <span class="rounded-full bg-gray-500 text-gray-100 text-xs px-2">tafsir</span>
                                 </div>
                             </div>
-                            <div class="p-4 rounded-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores et iste iusto laborum nihil provident quas reiciendis totam. Blanditiis est expedita nam quaerat qui quisquam reprehenderit vel velit? Consequuntur.</div>
+                            <div class="p-4 rounded-b text-sm text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores et iste iusto laborum nihil provident quas reiciendis totam. Blanditiis est expedita nam quaerat qui quisquam reprehenderit vel velit? Consequuntur.</div>
                         </div>
                         <div class="h-8"></div>
 
