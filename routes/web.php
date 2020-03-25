@@ -24,3 +24,7 @@ Route::view('index/tema', 'tema');
 Route::view('{nomorSurat}-{surat}', 'surat');
 Route::view('{nomorSurat}-{surat}/ayat-{nomorAyat}', 'ayat');
 Route::view('tag/{tag}', 'tag');
+
+Route::view('hadits', 'hadits-book.index');
+Route::view('hadits/{slug}', 'hadits.index');
+Route::view('hadits/{slug}/{number}', 'hadits.show');
