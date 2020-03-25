@@ -26,6 +26,7 @@ Route::view('{nomorSurat}-{surat}/ayat-{nomorAyat}', 'ayat');
 Route::view('tag/{tag}', 'tag');
 
 Route::view('fatwa/dsn-mui', 'fatwa.index');
+Route::view('fatwa/dsn-mui/{slug}', 'fatwa.show');
 
 Route::view('hadits', 'hadits-book.index');
 Route::view('hadits/{slug}', 'hadits.index');
