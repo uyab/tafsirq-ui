@@ -1,5 +1,5 @@
 <nav class="bg-gray-200 p-4">
-    <div class="max-w-3xl m-auto">
+    <div class="max-w-4xl m-auto">
         <ol class="flex flex-wrap mb-4 justify-center">
             <li class="px-4"><i class="far fa-home"></i></li>
             <li class="px-4">Quran</li>

@@ -1,5 +1,5 @@
 <footer class="bg-gray-900 text-gray-100 p-8 text-center">
-    <div class="max-w-2xl m-auto">
+    <div class="max-w-4xl m-auto">
         <h3 class="font-bold text-2xl mb-4">TafsirQ.com</h3>
         <p class="mb-4">
             Tafsirq.com adalah sebuah mesin pencari khusus tafsir Al-Quran dan Hadits, untuk memudahkan umat islam mencari dan memahami tafsir ayat-ayat Al-Qur'an dan Hadits.
