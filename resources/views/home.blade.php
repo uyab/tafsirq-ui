@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="px-4 py-12 text-center">
+    <div class="px-4 py-12 text-center max-w-4xl m-auto">
         <h1 class="text-4xl leading-none mb-8">Tafsir Al-Quran Online</h1>
 
         <div class="flex border rounded-full bg-gray-700 mb-4">

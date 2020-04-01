@@ -2,14 +2,14 @@
     <div class="max-w-4xl m-auto">
         <ol class="flex flex-wrap justify-center text-gray-700 text-sm leading-loose">
             <li class="px-4 sm:px-4"><a href="{{ route('home') }}" class="block"><i class="far fa-home"></i></a></li>
-            <li class="px-4 sm:px-4"><a href="#" class="block">Quran</a></li>
-            <li class="px-4 sm:px-4"><a href="#" class="block">Hadits</a></li>
+            <li class="px-4 sm:px-4"><a href="{{ route('quran.index') }}" class="block">Quran</a></li>
+            <li class="px-4 sm:px-4"><a href="{{ route('hadits.books') }}" class="block">Hadits</a></li>
             <li class="px-4 sm:px-4"><a href="#" class="block">Doa</a></li>
             <li class="px-4 sm:px-4"><a href="#" class="block">Cerita</a></li>
             <li class="px-4 sm:px-4"><a href="#" class="block">Mushaf</a></li>
-            <li class="px-4 sm:px-4"><a href="#" class="block">Fatwa</a></li>
-            <li class="px-4 sm:px-4"><a href="#" class="block">Kerja Sama</a></li>
-            <li class="px-4 sm:px-4 font-bold"><a href="#" class="block">Donasi</a></li>
+            <li class="px-4 sm:px-4"><a href="{{ route('fatwa.index') }}" class="block">Fatwa</a></li>
+            <li class="px-4 sm:px-4"><a href="{{ route('page.kerja-sama') }}" class="block">Kerja Sama</a></li>
+            <li class="px-4 sm:px-4 font-bold"><a href="{{ route('page.donasi') }}" class="block">Donasi</a></li>
         </ol>
 
         @if(! request()->is('/'))
