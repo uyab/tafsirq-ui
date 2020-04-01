@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'home');
+Route::view('/', 'home')->name('home');
 Route::view('page/{page}', 'page');
 Route::view('topik/{topik}', 'topik');
 Route::view('tilawah', 'tilawah');

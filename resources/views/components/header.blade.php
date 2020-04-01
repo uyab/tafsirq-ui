@@ -1,7 +1,7 @@
 <nav class="bg-gray-200 p-4">
     <div class="max-w-4xl m-auto">
         <ol class="flex flex-wrap justify-center text-gray-700 text-sm leading-loose">
-            <li class="px-4 sm:px-4"><a href="#" class="block"><i class="far fa-home"></i></a></li>
+            <li class="px-4 sm:px-4"><a href="{{ route('home') }}" class="block"><i class="far fa-home"></i></a></li>
             <li class="px-4 sm:px-4"><a href="#" class="block">Quran</a></li>
             <li class="px-4 sm:px-4"><a href="#" class="block">Hadits</a></li>
             <li class="px-4 sm:px-4"><a href="#" class="block">Doa</a></li>
