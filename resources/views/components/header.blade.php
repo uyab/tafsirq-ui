@@ -1,15 +1,15 @@
 <nav class="bg-gray-200 p-4">
     <div class="max-w-4xl m-auto">
-        <ol class="flex flex-wrap justify-center text-gray-700">
-            <li class="px-2 sm:px-4"><i class="far fa-home"></i></li>
-            <li class="px-2 sm:px-4">Quran</li>
-            <li class="px-2 sm:px-4">Hadits</li>
-            <li class="px-2 sm:px-4">Doa</li>
-            <li class="px-2 sm:px-4">Cerita</li>
-            <li class="px-2 sm:px-4">Mushaf</li>
-            <li class="px-2 sm:px-4">Fatwa</li>
-            <li class="px-2 sm:px-4">Kerja Sama</li>
-            <li class="px-2 sm:px-4">Donasi</li>
+        <ol class="flex flex-wrap justify-center text-gray-700 text-sm leading-loose">
+            <li class="px-4 sm:px-4"><a href="#" class="block"><i class="far fa-home"></i></a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Quran</a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Hadits</a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Doa</a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Cerita</a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Mushaf</a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Fatwa</a></li>
+            <li class="px-4 sm:px-4"><a href="#" class="block">Kerja Sama</a></li>
+            <li class="px-4 sm:px-4 font-bold"><a href="#" class="block">Donasi</a></li>
         </ol>
 
         @if(! request()->is('/'))
