@@ -12,6 +12,7 @@
             <li class="px-2 sm:px-4">Donasi</li>
         </ol>
 
+        @if(! request()->is('/'))
         <div class="flex">
             <div class="h-10 bg-gray-600 cursor-pointer flex-grow rounded-full">
                 <div class="flex">
@@ -21,5 +22,6 @@
                 </div>
             </div>
         </div>
+        @endif
     </div>
 </nav>
