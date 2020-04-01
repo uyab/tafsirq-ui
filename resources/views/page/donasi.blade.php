@@ -5,17 +5,19 @@
     <div class="bg-gray-100 p-8">
         <div class="max-w-3xl m-auto text-center">
             <h1 class="font-bold text-4xl">Donasi</h1>
-            <div class="font-normal">
+
+            <div class="text-xl text-center leading-normal font-light">
                 <strong>tafsirQ</strong> membuka kesempatan bagi siapa saja yang memiliki visi dan misi yang sama untuk
                 menyebarkan konten-konten Islami kepada masyarakat.
             </div>
+
         </div>
     </div>
 
     <div class="max-w-4xl m-auto p-8">
+
         <h3 class="font-bold text-lg">Donasi Melalui Transfer Bank</h3>
         <p>Silakan pilih nominal donasi yang dikehendaki lalu ikuti petunjuk yang ditampilkan:</p>
-
 
         <div class="h-8"></div>
 
