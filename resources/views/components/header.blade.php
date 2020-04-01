@@ -1,6 +1,6 @@
 <nav class="bg-gray-200 p-4">
     <div class="max-w-4xl m-auto">
-        <ol class="flex flex-wrap mb-4 justify-center text-gray-700">
+        <ol class="flex flex-wrap justify-center text-gray-700">
             <li class="px-2 sm:px-4"><i class="far fa-home"></i></li>
             <li class="px-2 sm:px-4">Quran</li>
             <li class="px-2 sm:px-4">Hadits</li>
@@ -13,6 +13,7 @@
         </ol>
 
         @if(! request()->is('/'))
+        <div class="h-4"></div>
         <div class="flex">
             <div class="h-10 bg-gray-600 cursor-pointer flex-grow rounded-full">
                 <div class="flex">

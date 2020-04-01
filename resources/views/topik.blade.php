@@ -5,7 +5,8 @@
 
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/4">
-                <div class="pb-4 pt-12 px-4">
+                <div class="h-8"></div>
+                <div class="pb-4 px-4">
                     <h2 class="tracking-widest uppercase font-bold mb-4 text-gray-700">#Trending</h2>
                     <ol class="text-sm flex flex-wrap">
                         @foreach(range(1,10) as $i)
@@ -19,7 +20,7 @@
             </div>
             <div class="w-full md:w-3/4">
 
-                <div class="pb-4 pt-12 px-4">
+                <div class="pb-4 px-4">
                     <h2 class="text-3xl font-thin text-gray-800">Apa kata Al-Qur'an tentang <strong>Ikhlas</strong>?</h2>
                 </div>
 
