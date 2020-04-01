@@ -19,8 +19,10 @@
 
         </div>
 
-        <p class="text-sm">
-            Dibuat dengan ♥ oleh PT Javan Cipta Solusi. © 2015-2020
+        <p class="text-xs">
+            Dibuat dengan ♥ oleh PT Javan Cipta Solusi.
+            <br>
+            © 2015-2020
         </p>
     </div>
 </footer>
