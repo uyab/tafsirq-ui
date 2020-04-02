@@ -9,12 +9,25 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
     <style>
+        body {
+            background: #fcf9f7;
+        }
         .arabic {
             direction: rtl;
             font-family: "Amiri","Scheherazade", "Traditional Arabic";
             font-size: 1.7em;
             letter-spacing: 1px;
             line-height: 2em;
+        }
+        .fad {
+            --fa-secondary-opacity: 1.0;
+            --fa-primary-color: #594A3C;
+            --fa-secondary-color: #238C97;
+        }
+        .fad.fa-light {
+            --fa-secondary-opacity: 1.0;
+            --fa-primary-color: #2fbccb;
+            --fa-secondary-color: #FFFFFF;
         }
     </style>
 

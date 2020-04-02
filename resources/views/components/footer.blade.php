@@ -1,4 +1,4 @@
-<footer class="bg-gray-200 text-gray-700 p-8 text-center text-sm">
+<footer class="text-gray-700 p-8 text-center text-sm">
     <div class="max-w-4xl m-auto">
         <h3 class="font-bold text-2xl mb-4">TafsirQ.com</h3>
         <p class="mb-8">

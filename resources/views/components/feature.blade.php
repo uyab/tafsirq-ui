@@ -1,24 +1,30 @@
-<div class="bg-gray-100 text-gray-700 py-4">
+<div class="py-4">
     <div class="max-w-4xl m-auto md:flex">
-        <div class="md:w-1/3 p-4 flex">
-            <img class="w-auto h-16 mr-4 object-scale-down" src="https://via.placeholder.com/50" alt="">
-            <div>
-                <h3 class="font-bold uppercase tracking-wider mb-1">Referensi Instan</h3>
-                <p class="text-gray-600">Dapatkan tafsir dan terjemahan Al-Qur'an secara instan untuk menemani hari-harimu</p>
+        <div class="md:w-1/3 flex px-4 py-6">
+            <div class="w-24 text-center pt-4">
+                <i class="fad fa-person-carry fa-2x"></i>
+            </div>
+            <div class="w-4/5">
+                <h3 class="font-bold uppercase text-teal-600 tracking-wider mb-1">Referensi Cepat</h3>
+                <p class="text-teal-900 text-lg font-light">Dapatkan tafsir dan terjemahan Al-Qur'an secara instan untuk menemani hari-harimu</p>
             </div>
         </div>
-        <div class="md:w-1/3 p-4 flex">
-            <img class="w-auto h-16 mr-4 object-scale-down" src="https://via.placeholder.com/50" alt="">
-            <div>
-                <h3 class="font-bold uppercase tracking-wider mb-1">Trending</h3>
-                <p class="text-gray-600">Topik pencarian yang sedang populer saat ini disertai ayat dan hadits terkait</p>
+        <div class="md:w-1/3 flex px-4 py-6">
+            <div class="w-24 text-center pt-4">
+                <i class="fad fa-hashtag fa-2x"></i>
+            </div>
+            <div class="w-4/5">
+                <h3 class="font-bold uppercase text-teal-600 tracking-wider mb-1">Trending</h3>
+                <p class="text-teal-900 text-lg font-light">Topik pencarian yang sedang populer saat ini disertai ayat dan hadits terkait</p>
             </div>
         </div>
-        <div class="md:w-1/3 p-4 flex">
-            <img class="w-auto h-16 mr-4 object-scale-down" src="https://via.placeholder.com/50" alt="">
-            <div>
-                <h3 class="font-bold uppercase tracking-wider mb-1">Tilawah Online</h3>
-                <p class="text-gray-600">Baca Al-Qur'an kapan saja di mana saja langsung dari <i>handphone</i></p>
+        <div class="md:w-1/3 flex px-4 py-6">
+            <div class="w-24 text-center pt-4">
+                <i class="fad fa-phone-laptop fa-2x"></i>
+            </div>
+            <div class="w-4/5">
+                <h3 class="font-bold uppercase text-teal-600 tracking-wider mb-1">Tilawah Online</h3>
+                <p class="text-teal-900 text-lg font-light">Baca Al-Qur'an kapan saja di mana saja langsung dari <i>handphone</i></p>
             </div>
         </div>
     </div>

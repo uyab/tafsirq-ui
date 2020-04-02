@@ -10,15 +10,18 @@ class Hero extends Component
 
     public $subtitle;
 
+    public $reverse;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(string $title, string $subtitle)
+    public function __construct(string $title, string $subtitle = null, bool  $reverse = false)
     {
         $this->title = $title;
         $this->subtitle = $subtitle;
+        $this->reverse = $reverse;
     }
 
     /**
