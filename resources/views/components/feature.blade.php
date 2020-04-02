@@ -1,4 +1,7 @@
-<div class="py-4">
+<div class="py-16">
+
+    <h3 class="text-center font-bold text-xl mb-4 px-4">Kenapa banyak yang pakai tafsirQ?</h3>
+
     <div class="max-w-4xl m-auto md:flex">
         <div class="md:w-1/3 flex px-4 py-6">
             <div class="w-24 text-center pt-4">
