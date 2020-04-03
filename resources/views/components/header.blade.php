@@ -15,15 +15,13 @@
 
         @if(! request()->is('/'))
             <div class="h-4"></div>
-            <div class="flex">
-                <div class="h-10 cursor-pointer flex-grow rounded-full">
-                    <div class="flex">
-                        <input type="search" name="search" placeholder="Cari topik, terjemahan, nama surat..."
-                               class="flex-grow opacity-25 px-4 placeholder-black focus:opacity-75 focus:outline-none rounded-full">
-                        <i class="fad fa-search fa-light m-3 mr-5 text-lg text-white w-4 h-4"></i>
-                    </div>
-                </div>
+            <div class="relative w-full">
+                <input type="search" name="serch" placeholder="Cari topik, terjemahan, nama surat..." class="w-full text-black placeholder-black h-10 px-5 pr-12 rounded-full focus:outline-none bg-white opacity-25 focus:opacity-100">
+                <button type="submit" class="absolute right-0 top-0 mt-2 mr-6">
+                    <i class="fas fa-search text-lg text-gray-900 w-4 h-4"></i>
+                </button>
             </div>
+
             <div class="h-4"></div>
             <ol class="overflow-x-scroll scrolling-auto flex whitespace-no-wrap">
                 @foreach(range(1,10) as $i)
