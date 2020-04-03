@@ -1,25 +1,19 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="text-white" style="background: #594A3C">
+    <div class="text-white pattern-dark">
         <div class="px-4 py-12 text-center max-w-4xl m-auto">
             <img src="{{ asset('img/logo-tafsirq.png') }}" alt="" class="m-auto mb-20 mt-8">
 
             <h1 class="text-2xl font-bold md:text-4xl leading-none mb-4">Tafsir Al-Quran Online</h1>
 
 
-            <div class="relative w-full">
-                <input type="search" name="serch" placeholder="Cari topik, terjemahan, nama surat..." class="w-full text-black placeholder-black h-10 px-5 pr-12 rounded-full focus:outline-none bg-white">
-                <button type="submit" class="absolute right-0 top-0 mt-2 mr-6">
+            <div class="relative max-w-xl m-auto">
+                <input type="search" name="serch" placeholder="Cari topik, terjemahan, nama surat..." class="w-full text-black placeholder-black h-12 px-5 pr-12 rounded-full focus:outline-none bg-white">
+                <button type="submit" class="absolute right-0 top-0 mt-3 mr-6">
                     <i class="fad fa-search text-lg text-gray-900 w-4 h-4"></i>
                 </button>
             </div>
-
-{{--            <div class="flex rounded-full mb-4 bg-teal-800">--}}
-{{--                <input type="search" name="search" placeholder="Cari topik, terjemahan, nama surat..."--}}
-{{--                       class="flex-grow px-4 placeholder-teal-600 text-teal-900 focus:outline-none rounded-l-full shadow-inner border-r">--}}
-{{--                <i class="fad fa-light fa-search my-3 mx-6 mr-8 text-lg text-gray-900 w-4 h-4"></i>--}}
-{{--            </div>--}}
 
             <div class="h-8"></div>
 
