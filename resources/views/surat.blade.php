@@ -2,21 +2,23 @@
 
 @section('content')
 
-    <div class="bg-teal-600 text-white pt-8 mb-8">
+    <div class="bg-teal-600 pt-8 mb-8">
         <div class="max-w-3xl m-auto text-center overflow-y-visible h-32">
-            <h1 class="font-bold text-3xl md:text-4xl">Index Al-Qur'an</h1>
-            <div class="font-light">Telusuri Al-Qur'an berdasar:</div>
+            <div class="text-white">
+                <h1 class="font-bold text-3xl md:text-4xl">Index Al-Qur'an</h1>
+                <div class="font-light">Telusuri Al-Qur'an berdasar:</div>
+            </div>
 
             <div class="h-8"></div>
 
             <div class="inline-flex shadow-md">
-                <a class="text-sm bg-white hover:bg-yellow-300 text-gray-800 font-semibold py-2 px-4 rounded-l">
+                <a class="text-sm bg-white hover:bg-yellow-300 font-semibold py-2 px-4 rounded-l bg-yellow-400">
                     Surat
                 </a>
-                <a class="text-sm bg-white hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 border-l border-gray-300">
+                <a class="text-sm bg-white hover:bg-gray-300 font-semibold py-2 px-4 border-l">
                     Juz
                 </a>
-                <a class="text-sm bg-white hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r border-l border-gray-300">
+                <a class="text-sm bg-white hover:bg-gray-400 font-semibold py-2 px-4 rounded-r border-l">
                     Tematik
                 </a>
             </div>

@@ -18,27 +18,27 @@
 
         <div class="h-8"></div>
 
-        <a href="#" class="block px-4 py-4 shadow-md border bg-indigo-900 text-white rounded-lg text-center mb-4">
+        <a href="#" class="block px-4 py-4 shadow-md bg-brown-900 text-white rounded-lg text-center mb-4">
             <h3 class="font-bold">
                 500.000
             </h3>
         </a>
-        <a href="#" class="block px-4 py-4 shadow-md border bg-indigo-800 text-white rounded-lg text-center mb-4">
+        <a href="#" class="block px-4 py-4 shadow-md bg-brown-700 text-white rounded-lg text-center mb-4">
             <h3 class="font-bold">
                 250.000
             </h3>
         </a>
-        <a href="#" class="block px-4 py-4 shadow-md border bg-indigo-700 text-white rounded-lg text-center mb-4">
+        <a href="#" class="block px-4 py-4 shadow-md bg-brown-600 text-white rounded-lg text-center mb-4">
             <h3 class="font-bold">
                 100.000
             </h3>
         </a>
-        <a href="#" class="block px-4 py-4 shadow-md border bg-indigo-600 text-white rounded-lg text-center mb-4">
+        <a href="#" class="block px-4 py-4 shadow-md bg-brown-600 text-white rounded-lg text-center mb-4">
             <h3 class="font-bold">
                 50.000
             </h3>
         </a>
-        <a href="#" class="block px-4 py-4 shadow-md border bg-indigo-500 text-white rounded-lg text-center mb-4">
+        <a href="#" class="block px-4 py-4 shadow-md bg-brown-600 text-white rounded-lg text-center mb-4">
             <h3 class="font-bold">
                 25.000
             </h3>

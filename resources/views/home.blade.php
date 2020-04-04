@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="text-white pattern-dark">
+    <div class="text-white pattern-zigzag bg-brown-700">
         <div class="px-4 py-12 text-center max-w-4xl m-auto">
             <img src="{{ asset('img/logo-tafsirq.png') }}" alt="" class="m-auto mb-20 mt-8">
 
@@ -30,6 +30,7 @@
         </div>
     </div>
 
+    <div class="h-4 pattern-zigzag opacity-50"></div>
     <x-feature></x-feature>
 
 @endsection

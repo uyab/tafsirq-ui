@@ -9,7 +9,7 @@
             <div class="p-4">
                 @foreach(range(1, 10) as $item)
                     <div class="shadow-lg rounded-lg">
-                        <div class="bg-white px-4 py-2 rounded-t flex">
+                        <div class="bg-white px-6 py-6 rounded-t flex">
                             <div class="flex-grow font-bold text-teal-600">
                                 Surat Al-Baqarah Ayat 47
                             </div>
@@ -17,7 +17,7 @@
                                 <span class="rounded-lg bg-orange-200 text-orange-600 text-xs px-2 py-1">tafsir</span>
                             </div>
                         </div>
-                        <div class="p-4 rounded-b text-sm text-gray-700 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores et iste iusto laborum nihil provident quas reiciendis totam. Blanditiis est expedita nam quaerat qui quisquam reprehenderit vel velit? Consequuntur.</div>
+                        <div class="px-6 pb-6 rounded-b text-sm bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores et iste iusto laborum nihil provident quas reiciendis totam. Blanditiis est expedita nam quaerat qui quisquam reprehenderit vel velit? Consequuntur.</div>
                     </div>
                     <div class="h-8"></div>
 

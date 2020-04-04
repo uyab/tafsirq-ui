@@ -1,4 +1,4 @@
-<header class="p-4" style="background: #594A3C">
+<header class="p-4 bg-brown-700">
     <div class="max-w-4xl m-auto">
         <ol class="flex flex-wrap justify-center text-white text-sm sm:text-base font-light leading-loose tracking-wider">
             <li class="px-3 sm:px-4"><a href="{{ route('home') }}" class="block"><i class="fad fa-home-alt fa-light"></i></a>
@@ -23,7 +23,7 @@
             </div>
 
             <div class="h-4"></div>
-            <ol class="overflow-x-scroll scrolling-auto flex whitespace-no-wrap">
+            <ol class="overflow-x-scroll scrolling-auto scrolling-0 flex whitespace-no-wrap">
                 @foreach(range(1,10) as $i)
                     <li class="pr-6 inline-flex">
                         <span class="text-teal-500 text-xs pr-1">{{ $i }}</span>
