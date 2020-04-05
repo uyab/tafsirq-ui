@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "icon";
 @import "patterns";
-
-.scrolling-0 {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
+@import "typography";
+@import "utilities";

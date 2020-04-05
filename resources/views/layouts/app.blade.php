@@ -5,41 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>TafsirQ</title>
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-
-    <style>
-        body {
-            background: #fcf9f7;
-        }
-        .arabic {
-            direction: rtl;
-            font-family: "Amiri","Scheherazade", "Traditional Arabic";
-            font-size: 1.7em;
-            letter-spacing: 1px;
-            line-height: 2em;
-        }
-        .fad {
-            --fa-secondary-opacity: 1.0;
-            --fa-primary-color: #594A3C;
-            --fa-secondary-color: #238C97;
-        }
-        .fad.fa-swap {
-            --fa-primary-color: #238C97;
-            --fa-secondary-color: #594A3C;
-        }
-        .fad.fa-light {
-            --fa-secondary-opacity: 1.0;
-            --fa-primary-color: #2fbccb;
-            --fa-secondary-color: #FFFFFF;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/a42e77f6db.js" crossorigin="anonymous"></script>
 
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col bg-brown-100">
 
     <x-header></x-header>
 

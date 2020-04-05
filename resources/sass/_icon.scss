@@ -1,0 +1,14 @@
+.fad {
+  --fa-secondary-opacity: 1.0;
+  --fa-primary-color: #594A3C;
+  --fa-secondary-color: #238C97;
+}
+.fad.fa-swap {
+  --fa-primary-color: #238C97;
+  --fa-secondary-color: #594A3C;
+}
+.fad.fa-light {
+  --fa-secondary-opacity: 1.0;
+  --fa-primary-color: #2fbccb;
+  --fa-secondary-color: #FFFFFF;
+}
