@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <x-hero title="" subtitle=""></x-hero>
+    <div class="h-20 pattern-zigzag bg-brown-700"></div>
 
     <div class="max-w-3xl m-auto p-8">
         <div class="shadow-xl rounded bg-white" style="position: relative; margin-top: -4em">

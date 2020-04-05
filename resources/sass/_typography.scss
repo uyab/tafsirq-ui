@@ -1,7 +1,6 @@
 .arabic {
   direction: rtl;
   font-family: 'Scheherazade', cursive;
-  @apply .text-4xl;
   @apply .leading-relaxed;
   @apply .tracking-wide;
 }

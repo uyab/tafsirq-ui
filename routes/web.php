@@ -33,3 +33,6 @@ Route::view('hadits/{slug}/{number}', 'hadits.show');
 
 Route::view('page/donasi', 'page.donasi')->name('page.donasi');
 Route::view('page/kerja-sama', 'page.kerja-sama')->name('page.kerja-sama');
+
+Route::view('konten/{category}', 'konten.index')->name('konten.index');
+Route::view('konten/{category}/{slug}', 'konten.show')->name('konten.show');

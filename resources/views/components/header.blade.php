@@ -5,7 +5,7 @@
             </li>
             <li class="px-3 sm:px-4"><a href="{{ route('quran.index') }}" class="block">Quran</a></li>
             <li class="px-3 sm:px-4"><a href="{{ route('hadits.books') }}" class="block">Hadits</a></li>
-            <li class="px-3 sm:px-4"><a href="#" class="block">Doa</a></li>
+            <li class="px-3 sm:px-4"><a href="{{ route('konten.index', 'doa') }}" class="block">Doa</a></li>
             <li class="px-3 sm:px-4"><a href="#" class="block">Cerita</a></li>
             <li class="px-3 sm:px-4"><a href="#" class="block">Mushaf</a></li>
             <li class="px-3 sm:px-4"><a href="{{ route('fatwa.index') }}" class="block">Fatwa</a></li>
