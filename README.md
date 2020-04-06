@@ -20,3 +20,9 @@
 - Folders that must writeable:
     - storage
     - bootstrap/cache
+- `npm install`
+
+## Menjalankan Aplikasi
+- Setup web server Anda masing-masing
+- Sesuaikan APP_URL di file `.env`, misalnya `http://localhost` atau `http://tafsirq.test`
+- Jalankan `npm run watch`, web tafsirq bisa diakses di `http://localhost:3000`

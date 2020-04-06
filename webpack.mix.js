@@ -2,6 +2,9 @@ const mix = require('laravel-mix');
 
 require('laravel-mix-tailwind');
 require('laravel-mix-purgecss');
+require('mix-env-file');
+
+mix.env('./.env');
 
 /*
  |--------------------------------------------------------------------------
@@ -18,7 +21,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .tailwind('./tailwind.config.js');
 
-mix.browserSync('tafsirq-v2.test')
+mix.browserSync(process.env.APP_URL);
 
 if (mix.inProduction()) {
     mix
