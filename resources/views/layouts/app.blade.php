@@ -8,7 +8,7 @@
     <title>TafsirQ</title>
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+{{--    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">--}}
 
 </head>
 <body class="min-h-screen flex flex-col bg-brown-100">
