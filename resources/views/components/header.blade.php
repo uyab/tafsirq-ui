@@ -2,9 +2,7 @@
     <div class="max-w-4xl m-auto">
         <ol class="flex flex-wrap justify-center text-white text-sm sm:text-base font-light leading-loose tracking-wider">
             <li class="px-3 sm:px-4">
-                <a href="{{ route('home') }}" class="block">
-                    <svg class="w-4 h-4 fad"><use xlink:href="{{ asset('icons/sprites/duotone.svg#home-alt') }}"></use></svg>
-                </a>
+                <a href="{{ route('home') }}" class="block"><i class="fad fa-home-alt fa-light"></i></a>
             </li>
             <li class="px-3 sm:px-4"><a href="{{ route('quran.index') }}" class="block">Quran</a></li>
             <li class="px-3 sm:px-4"><a href="{{ route('hadits.books') }}" class="block">Hadits</a></li>
